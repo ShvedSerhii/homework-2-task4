@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>basketball</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="card-body">
+            <div class="card">
+              <div class="card-header">
+                Закиньте м'яч в корзину використовуючи мишу.
+              </div>
+              <img src="img/korzyna.png" id="hoop" class="droppable" />
+              <img src="img/mjach.png" id="ball" />
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="card-body">
+            <div class="card">
+              <div class="card-header">
+                Лічильник влучань в кошик
+              </div>
+              <h1 id="calc">0</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
